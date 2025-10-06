@@ -71,7 +71,7 @@ The dataset is **synthetically generated** to simulate real-world agricultural c
 
 ##  Results
 - **Best Model:** Voting Ensemble (LightGBM + XGBoost + CatBoost)  
-- **Submission File:** [`result/submission_ensemble1.csv`](result1/submission_ensemble1.csv)  
+- **Submission File:** [`Result/submission_ensemble1.csv`](Result/submission_ensemble1.csv)  
 
 ---
 
@@ -95,6 +95,7 @@ Special thanks to our **faculty and mentor** for their continuous guidance and f
 ---
 
 ⭐ **If you like this project, don't forget to star the repository!**
+
 
 
 
