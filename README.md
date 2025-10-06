@@ -31,7 +31,7 @@ To build a machine learning model that predicts **the optimal fertilizer combina
 - **Files Used:**
   - `train.csv` — Training dataset  
   - `test.csv` — Test dataset  
-  - `sample_submission.csv` — Submission format  
+  - `submission_ensemble1.csv` — Submission format  
 
 The dataset is **synthetically generated** to simulate real-world agricultural conditions (soil composition, weather, crop type, etc.) while protecting private data.
 
@@ -56,22 +56,22 @@ The dataset is **synthetically generated** to simulate real-world agricultural c
 - **Language:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, LightGBM, XGBoost, CatBoost  
 - **Visualization:** Matplotlib, Seaborn  
-- **Environment:** Jupyter Notebook  
+- **Environment:** Google Colab 
 
 ---
 
 ##  Notebooks
 
-- **EDA Notebook:** [EDA.ipynb](notebooks/EDA.ipynb)  
+- **EDA Notebook:** [EDA.ipynb](Code/EDA.ipynb)  
   Exploratory Data Analysis and feature exploration.
 
-- **Modeling Notebook:** [Modeling.ipynb](notebooks/Modeling.ipynb)  
+- **Modeling Notebook:** [Modeling.ipynb](Code/Modeling.ipynb)  
   Model training, tuning, and evaluation.
 ---
 
 ##  Results
 - **Best Model:** Voting Ensemble (LightGBM + XGBoost + CatBoost)  
-- **Submission File:** [`results/submission.csv`](results/submission.csv)  
+- **Submission File:** [`result/submission_ensemble11.csv`](result1/submission_ensemble1.csv)  
 
 ---
 
@@ -95,4 +95,5 @@ Special thanks to our **faculty and mentor** for their continuous guidance and f
 ---
 
 ⭐ **If you like this project, don't forget to star the repository!**
+
 
